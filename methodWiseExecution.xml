@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="allah3">
+       <classes>
+           <class name="class1.priority">
+               <methods>
+                   <include name="Atest"/> //only executive specific method
+                   <include name="Btest"/> //only executive specific method
+                   <include name="Ctest"/> //only executive specific method
+               </methods>
+           </class>
+           <class name="class1.dependsOn"></class>
+       </classes>
+    </test>
+</suite>

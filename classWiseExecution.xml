@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="cengiz imren">
+        <classes>
+            <class name="class1.priority"></class>
+            <class name="class2.dataProvider"></class>
+            <class name="class1.AssertionBasic"></class>
+        </classes>
+
+    </test>
+</suite>
